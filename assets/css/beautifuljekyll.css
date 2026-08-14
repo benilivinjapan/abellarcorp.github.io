@@ -1124,3 +1124,32 @@ pre {
     display: inline-block;
   }
 }
+
+/* Custom Language Button Style */
+.lang-btn {
+  background-color: transparent;
+  color: #d4af37; /* Corporate Gold */
+  border: 1px solid #8b6b3e;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.lang-btn:hover {
+  background-color: #d4af37;
+  color: #000000;
+}
+
+/* Hide Google Translate top toolbar banner */
+body {
+  top: 0px !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+.skiptranslate {
+  display: none !important;
+}
