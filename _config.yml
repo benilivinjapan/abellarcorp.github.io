@@ -20,12 +20,14 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Business: "business"
+  Company: "company"
   Recruit: "recruit"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Contact: "contact"
+
 
 ################
 # --- Logo --- #
