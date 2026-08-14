@@ -8,7 +8,7 @@ full-width: true
 {{ content }}
 
 <!-- CONTACT SECTION -->
-<section id="contact" class="landing-contact">
+<section id="contact" class="landingcontact">
   <div class="contact-container">
     
     <!-- Section Header -->
