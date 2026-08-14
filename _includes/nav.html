@@ -40,7 +40,7 @@
         </li>
       {%- endif -%}
 
-      <!-- Custom Language Toggle Button (Moved inside navbar-nav) -->
+      <!-- Custom Language Toggle Button -->
       <li class="nav-item d-flex align-items-center">
         <button id="lang-toggle-btn" onclick="toggleLanguage()" class="lang-btn">
           <span id="lang-btn-text">日本語</span>
@@ -99,3 +99,33 @@
 </nav>
 
 {% include search.html %}
+
+<!-- Page-Specific Inline Styles -->
+<style>
+  .lang-btn {
+    background-color: transparent;
+    color: #d4af37;
+    border: 1px solid #8b6b3e;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+  }
+
+  .lang-btn:hover {
+    background-color: #d4af37;
+    color: #000000;
+  }
+
+  body {
+    top: 0px !important;
+  }
+  .goog-te-banner-frame {
+    display: none !important;
+  }
+  .skiptranslate {
+    display: none !important;
+  }
+</style>
