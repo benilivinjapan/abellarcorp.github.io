@@ -6,15 +6,95 @@ full-width: true
 ---
 
 <style>
-  .landing-contact { background-color: #0d0d0d; padding: 60px 20px; color: #f5f5f5; }
-  .contact-container { max-width: 1100px; margin: 0 auto; text-align: center; }
-  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; text-align: center; }
-  .contact-info, .contact-form-wrapper { background: #181412; border: 1px solid #8b6b3e; padding: 30px; border-radius: 8px; }
-  .form-group { margin-bottom: 15px; }
-  .form-group input, .form-group textarea { width: 100%; padding: 10px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; }
-  .btn-gold-submit { background: #d4af37; color: #000; font-weight: bold; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; }
-</style>
+  /* Base Container Styles */
+  .landing-contact { 
+    background-color: #0d0d0d; 
+    padding: 60px 20px; 
+    color: #f5f5f5; 
+    text-align: center; 
+  }
+  
+  .contact-container { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
 
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    text-align: center; 
+  }
+
+  @media (max-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Info & Form Box Cards */
+  .contact-info, .contact-form-wrapper { 
+    background: #181412; 
+    border: 1px solid #8b6b3e; 
+    padding: 30px; 
+    border-radius: 8px; 
+    text-align: center; 
+  }
+
+  /* Centering Info Blocks */
+  .info-block {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .info-block h3, .info-block p {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  /* Centering Form Labels & Controls */
+  .form-group { 
+    margin-bottom: 20px; 
+    text-align: center; 
+  }
+
+  .form-group label {
+    display: block;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  .form-group input, 
+  .form-group textarea { 
+    width: 100%; 
+    padding: 12px; 
+    background: #222; 
+    border: 1px solid #444; 
+    color: #fff; 
+    border-radius: 4px; 
+    text-align: center; /* Centers placeholder and typed text */
+    box-sizing: border-box;
+  }
+
+  .btn-gold-submit { 
+    background: #d4af37; 
+    color: #000; 
+    font-weight: bold; 
+    border: none; 
+    padding: 12px 30px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    display: inline-block;
+    margin: 10px auto 0 auto;
+  }
+</style>
 
 <!-- CONTACT SECTION -->
 <section id="contact" class="landing-contact">
