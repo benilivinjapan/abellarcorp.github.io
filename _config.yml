@@ -20,8 +20,8 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  Top: "top"
   About Me: "aboutme"
+  Recruit: "recruit"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
