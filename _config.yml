@@ -137,17 +137,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#121212"          # Rich dark black
+text-col: "#F5F5F5"          # Crisp off-white (maximum readability)
+link-col: "#D4AF37"          # Classic Metallic Gold
+hover-col: "#FFD700"         # Bright Gold hover state
+navbar-col: "#211C18"        # Deep espresso brown accent
+navbar-text-col: "#F5F5F5"   # Off-white text
+navbar-border-col: "#8B6B3E" # Warm bronze/gold border
+footer-col: "#181412"        # Very dark espresso brown
+footer-text-col: "#B8B0A6"   # Soft warm beige/cream text
+footer-link-col: "#D4AF37"   # Gold links
+footer-hover-col: "#FFD700"  # Bright Gold hover state
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
